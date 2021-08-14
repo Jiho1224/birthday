@@ -15,9 +15,8 @@ function Navbar() {
         <IconContext.Provider value={{color:'#000'}}>
           <div className="navbar">
             <Link to="#" className='menu-bars'>
-                <FaIcons.FaBars onClick={showSidebar}/>
-                         
-            </Link> 
+                <FaIcons.FaBars onClick={showSidebar}/>                        
+            </Link>
             <div className="top-bar">
                 <img src="img/happy-birthday.png" className="photo"></img>
             </div>    
