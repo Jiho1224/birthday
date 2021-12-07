@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
 
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
-    font-family: 'Do Hyeon', sans-serif;
     background-color:#fce0e5;
     
 }
 
 .home, .letter, .picture, .gift, .camera, .hbd{
-    display:flex;
-    height:90vh;
+    
     align-items:center;
-    justify-content:center;
+    
     font-size: 3rem;
 }
+
+/* .home{
+    text-align: center;
+} */

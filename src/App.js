@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Letter from './pages/Letter';
 import Picture from './pages/Picture';
+
 import Camera from './pages/Camera';
 import Gift from './pages/Gift';
 import HBD from './pages/HBD';
@@ -24,6 +25,7 @@ class App extends React.Component{
           <Route path='/camera' component={Camera} />
           <Route path='/gift' component={Gift} />
           <Route path='/hbd' component={HBD} />
+          
   
         </Switch>
       </Router>

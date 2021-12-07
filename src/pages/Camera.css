@@ -1,0 +1,119 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:center;
+    
+}
+
+.camera {
+    /* min-height : 100vh; */
+    position : center;
+    margin-left:200px;
+   
+}
+
+
+._camera{
+    position: center;
+    position: relative;
+    width : 65%;
+    background-color:rgba(0,0,0,0);
+    float:left;
+    margin-left:80px;
+    margin-top : 70px;
+    
+    
+}
+
+.thisVideo{
+    background-color: white;
+}
+.result{
+    position:fixed;
+    top : 0;
+    left:100%;
+    width:50%;
+    height:100%;
+    align-items:center;
+    transition : 0.4s;
+    background-color:rgba(0,0,0,0.9);
+    float:left;
+    
+
+    
+}
+
+.result .hasPhoto{
+    left:0;
+    
+    
+}
+
+video{
+    width: 80%;
+    max-width: 80%;
+    height : 600px;
+
+    /* width : 100%;
+    max-width: 100%;
+    height:auto; */
+    
+}
+
+button{
+    position : absolute;
+    bottom : 30px;
+    left: 20px;
+    /* width : 65%; */
+
+    appearance:none;
+    border : none;
+    outline: none;
+    margin-left: 490px;
+    
+    background : #844FFF 50%;
+    padding : 8px 16px;
+    /* background : linear-gradient(to
+    right, #844FFF 50% #FF4F84 50%); */
+
+    background-position : 0%;
+    background-size : 200%;
+    color : #FFF;
+    font-size : 24px;
+    font-weight: 700;
+    transition : 0.4s;
+    cursor : pointer;
+    
+}
+
+button:hover {
+    background-position: 100%;
+    background : #FF4F84 50%;
+}
+
+.polaroid {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.2);
+  }
+  .caption {
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 2em;
+  }
+  .item {
+    display: inline-block;
+    margin-top: 150px;;
+    filter: grayscale(100%);
+  }
+  .item .polaroid:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.35s;
+  }
+  .item:nth-of-type(4n+1) {
+    transform: scale(0.8, 0.8) rotate(5deg);
+    transition: all 0.35s;
+  }

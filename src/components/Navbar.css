@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
 .navbar{
-    /* background-color : #060b26; */
-    height:80px;
+    
+    font-family: 'Do Hyeon', sans-serif;
+    height:125px;
     display:flex;
     justify-content:start;
     align-items:center;
@@ -10,13 +13,13 @@
     /* margin-top : 100px; */
     margin-left:2rem;
     font-size:2rem;
-    /* background:none; */
+    background:none;
     
 }
 
 .nav-menu {
-    /* margin-top:100px; */
-
+    
+    
     width:250px;
     height:100vh;
     display:flex;
@@ -30,12 +33,15 @@
 }
 
 .nav-menu.active{
+    
     left:0;
     transition:350ms;
     background:#ffffff;
 }
 
 .nav-text{
+    
+    font-family: 'Do Hyeon', sans-serif;
     display:flex;
     justify-content:start;
     align-items: center;
@@ -45,6 +51,7 @@
 }
 
 .nav-text a{
+    margin :0;
     text-decoration:none;
     color:#000000;
     font-size:1.5em;
@@ -57,6 +64,7 @@
 }
 
 .nav-text a:hover{
+    
     background-color: none;
     border : 1px solid;
 }
@@ -72,6 +80,7 @@
     display:flex;
     justify-content: start;
     align-items: center;
+    margin-top : 20px;
 }
 
 span{
@@ -80,14 +89,13 @@ span{
 
 
 .photo{
-    height:100px;
-    width:100px;
-    
-   
+    height:101px;
+    width:101px;
+      
 }
 
 .top-bar{
-    margin-top:20px;
+    
     text-align:center;
     width:100%;
 }
