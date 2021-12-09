@@ -22,7 +22,7 @@
       font-size : 0.8em;
       font-family: 'Gaegu', cursive;
   }
-  img {
+  .polaroid > img {
     width: 200px;
     max-height: 200px;
     object-fit: cover;
@@ -33,7 +33,7 @@
     width: 100%;
     padding: 0 2rem;
     text-align: center;
-    margin-top: 0rem;
+    margin-top: -5rem;
     border-radius:10px;
     
     

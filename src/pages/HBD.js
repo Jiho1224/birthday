@@ -1,11 +1,12 @@
 import React from 'react'
+import './HBD.css';
+
 
 function Home() {
     return (
-        <div className='hbd'>
-            <h1>HBD</h1>
-            
-        </div>
+        <div></div>
+
+
     )
 }
 

@@ -92,22 +92,51 @@ function Home() {
     function onClickThree(e){ 
         $('.wrapper').empty();
         let temp_html = `<div class="item">
-        <div class="polaroid"><img src="./img/고2-1.jpg" />
-            <div class="caption">2017.12.25 크리스마스 in 경주월드</div>
+        <div class="polaroid"><img src="./img/2021-1.jpg" />
+            <div class="caption">윤지&희연&지호 in 지호집</div>
         </div>
     </div>
 
     <div class="item">
-        <div class="polaroid"><img src="./img/고2-2.jpg" />
-            <div class="caption">Merry Christmas!</div>
+        <div class="polaroid"><img src="./img/2021-2.jpg" />
+            <div class="caption">이거 진짜 잘 나옴!</div>
         </div>
     </div>
 
     <div class="item">
-        <div class="polaroid"><img src="./img/고2-3.jpg" />
-            <div class="caption">Merry Christmas 2</div>
+        <div class="polaroid"><img src="./img/2021-3.jpg" />
+            <div class="caption">서면에서 승희랑 윤지랑~</div>
         </div>
     </div>
+
+    <div class="item">
+        <div class="polaroid"><img src="./img/2021-4.jpg" />
+            <div class="caption">다대포해수욕장!!</div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="polaroid"><img src="./img/2021-5.jpg" />
+            <div class="caption">여기 다시 가자</div>
+        </div>
+    </div>
+    <div class="wrapper" style={{marginTop:-30px;}}>
+    
+    <div class="item">
+        <div class="polaroid"><img src="./img/2021-6.jpg" />
+            <div class="caption">교수님 소개 사진 가능</div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="polaroid"><img src="./img/2021-7.jpg" />
+            <div class="caption">신기한 인연이라고 생각해~</div>
+        </div>
+    </div>
+    </div>
+
+
+
 
     `
         $('.wrapper').append(temp_html);
@@ -126,7 +155,7 @@ function Home() {
                 <div class="rgyPostIt" onClick={onClickTwo}> # 고2, 2019년</div>
                 <div class="rgyPostIt" onClick={onClickThree}> # 2021년</div>
                 
-            </div>
+            </div> 
 
             <div class="wrapper">
 

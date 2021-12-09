@@ -58,7 +58,7 @@ function Home() {
             <div class="_camera">
 
                 <video class="thisVideo" ref={videoRef}></video>
-                <button onClick={takePhoto}>snap</button>
+                <button class="button"onClick={takePhoto}>snap</button>
             </div>
 
             <br />

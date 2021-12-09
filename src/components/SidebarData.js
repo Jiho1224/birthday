@@ -25,24 +25,11 @@ export const SidebarData = [
         cName : 'nav-text'
 
     },
-    {
-        title:'Gift',
-        path: '/gift',
-        icon: <AiIcons.AiFillGift />,
-        cName : 'nav-text'
-
-    },
+    
     {
         title:'Camera',
         path: '/camera',
         icon: <AiIcons.AiFillCamera />,
-        cName : 'nav-text'
-
-    },
-    {
-        title:'HBD',
-        path: '/hbd',
-        icon: <FaIcons.FaBirthdayCake />,
         cName : 'nav-text'
 
     }

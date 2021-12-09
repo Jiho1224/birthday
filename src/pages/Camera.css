@@ -61,7 +61,7 @@ video{
     
 }
 
-button{
+.button{
     position : absolute;
     bottom : 30px;
     left: 20px;

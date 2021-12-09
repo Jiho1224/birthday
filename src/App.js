@@ -24,7 +24,7 @@ class App extends React.Component{
           <Route path='/picture' component={Picture} />
           <Route path='/camera' component={Camera} />
           <Route path='/gift' component={Gift} />
-          <Route path='/hbd' component={HBD} />
+          
           
   
         </Switch>
